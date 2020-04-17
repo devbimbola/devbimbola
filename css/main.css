@@ -1,0 +1,195 @@
+/***********************
+GENERAL
+************************/
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+#wrapper  {
+    max-width: 940px;
+    margin:0 auto;
+    padding:0 5%;
+}
+a     {
+    text-decoration: none;
+}
+img  {
+max-width: 100%;
+}
+h3 {
+    margin: 0 0 1em 0;
+    font-size:x-large;
+}
+
+/*********************
+HEADING
+**********************/
+
+header{
+    float: left;
+    margin:0 0 30px 0;
+    padding:5px 0 0 0;
+    width: 100%;
+}
+#logo {
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-family:'Indie Flower', cursive;
+    margin: 15px  0;
+    font-size: 1.85em;
+    font-weight: normal ;
+    line-height:0.8em;
+}
+
+h2{
+    font-family:'Indie Flower', cursive;
+    font-size: 0.85em;
+    margin: auto;
+    font-weight:normal;
+}
+
+/****************************
+NAVIGATION***********************/
+nav{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 0;
+}
+
+/****************************
+FOOTER***********************/
+
+footer{
+    font-size:smaller;
+    text-align:center;
+    clear: both;
+    padding-top: 50px;
+    color: #332266;
+}
+
+footer a {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    display: inline-block;
+
+} 
+ 
+/*********************
+PAGE : PORTFOLIO
+**********************/
+#gallery {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+background-color: grey;
+color: rgb(240, 255, 242);
+}
+#gallery li a p  {
+    margin: 0%;
+    padding: 5%;
+    font-size: 0.75em;
+    color: lightgray;
+
+}
+
+/*********************
+PAGE: ABOUT
+**********************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin:0 auto 30px ;
+    border-radius: 100%;
+}
+
+/*********************
+PAGE: CONTACT
+**********************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a{
+    display: block;
+    min-height:20px ;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding:0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../img/twiter.png');
+}
+
+
+/****************************
+COLORS***********************/
+
+/* green header */
+header{
+    background-color: rgb(8, 145, 69);
+}
+/*logo text*/
+h1, h2 {
+    color:white;
+}
+/*nav background on mobile*/
+
+nav{
+    text-align:center;
+    padding:10px 0;
+    margin: 20px 0;
+}
+
+nav ul{
+    list-style: none;
+    margin:0 10px;
+    padding: 0;
+}
+
+nav li{
+    display:inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding:15px 10px;
+}
+nav{
+    background: #599a68;
+}
+/*nav link*/
+nav a, nav a :visited {
+    color: #fff;
+}
+/*selected nav link*/
+nav a.selected, nav a:hover  {
+color: #332266;
+}
+/*site body*/ 
+body {
+    background-color:white;
+    color: grey;
+}
